@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
   <meta charset="utf-8">
@@ -43,42 +43,89 @@
         <h1>Foodies & Co<span>.</span></h1>
       </a>
 
-      <nav id="navbar active show" class="navbar">
-
-        <ul>
-
-          <li>
-            <a href="/home">Home</a>
-          </li>
-
-          <li>
-            <a href="/menu">Menu</a>
-          </li>
-
-          <li>
-            <a href="/add-order">Add Order</a>
-          </li>
-
-          <li>
-            <a href="/order">Order</a>
-          </li>
-
-          <li>
-            <a href="/dashboard">Profile</a>
-          </li>
-
-
-        </ul>
+        <nav id="navbar active show" class="navbar">
 
 
 
+            @if (Route::has('login'))
+
+                @auth
+
+                        <ul>
+
+                            <li>
+                                <a href="/home">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="/menu">Menu</a>
+                            </li>
+
+                            <li>
+                                <a href="/add-order">Add Order</a>
+                            </li>
+
+                            <li>
+                                <a href="/order">Order</a>
+                            </li>
+
+                            <li>
+                                <a href="/dashboard">Profile</a>
+                            </li>
+
+                        </ul>
 
 
-      </nav><!-- .navbar -->
+
+
+
+                    @else
+
+
+                                <a class="loginni" href="/login">Log in</a>
+
+
+                    @if (Route::has('register'))
+
+
+                                <a href="/register">Register</a>
+
+
+
+
+                    @endif
+
+                @endauth
+
+            @endif
+
+
+
+
+        </nav><!-- .navbar -->
+
+
+
     </div>
   </header><!-- End Header -->
 
-  @yield('content')
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Enjoy Your Healthy<br>Delicious Food</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Welcome to Foodies & Co! <br>
+            Satisfy your cravings and embark <br>
+            on a delightful culinary journey with us.</p>
+
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
 
 
 

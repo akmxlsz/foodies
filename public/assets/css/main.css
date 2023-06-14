@@ -372,7 +372,7 @@
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover>a {
-      color: #000;
+      color: red;
     }
 
     .navbar .dropdown ul {
@@ -1658,3 +1658,10 @@
     border: none;
     border-radius: 5px;
   }
+
+  .loginni{
+    margin-right: 20px;
+
+  }
+
+
