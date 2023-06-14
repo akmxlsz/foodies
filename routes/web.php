@@ -54,9 +54,12 @@ Route::get('review2', [Review2Controller::class, 'index']);
 Route::resource('addreview2', Review2Controller::class);
 
 //review3 part
-
+Route::get('/add-review3', function () {
+    return view('add-review3');
+});
 
 Route::get('review3', [Review3Controller::class, 'index']);
+Route::resource('addreview3', Review3Controller::class);
 
 
 //danish part

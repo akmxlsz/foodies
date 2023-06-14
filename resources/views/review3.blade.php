@@ -13,7 +13,7 @@
 
         <div class="section-header">
 
-            <p>Aut Luia<span> Review</span></p>
+            <p>Est Eligendi<span> Review</span></p>
 
         </div>
 
@@ -27,14 +27,14 @@
               </tr>
             </thead>
             <tbody>
-                {{--@foreach ($review2 as $item)
+                @foreach ($review3 as $item)
                 <tr>
                   <th scope="row">{{ $item->name }}</th>
                   <td>{{ $item->review }}</td>
 
                 </tr>
                 @endforeach--}}
-              <tr>
+              {{--<tr>
                 <th scope="row">Mohd Khairul Azmi</th>
                 <td>mkazmi@iium.edu.my</td>
                 <td>019-2839481</td>
@@ -57,7 +57,7 @@
                 <td>mkazmi@iium.edu.my</td>
                 <td>019-2839481</td>
                 <td>Hassan</td>
-              </tr>
+              </tr>--}}
 
             </tbody>
           </table>

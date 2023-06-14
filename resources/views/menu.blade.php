@@ -71,6 +71,8 @@
                 <p class="price">
                   RM8.95
                 </p>
+                <a type="submit" class="buttonreview" href="/review3">Read Review</a>
+                <a type="submit" class="buttonreview" href="/add-review3">Write Review</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
