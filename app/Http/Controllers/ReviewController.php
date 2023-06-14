@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Review;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class ReviewController extends Controller
 {
@@ -11,7 +13,11 @@ class ReviewController extends Controller
      */
     public function index()
     {
-        return view('review');
+        $review = DB::table('reviews')
+
+        ->get();
+
+        return view('review', ['review'=>$review]);
     }
 
     /**
@@ -27,7 +33,13 @@ class ReviewController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $review= new Review();
+        $review->name=$request->name;
+        $review->review=$request->review;
+        $review->created_at=today();
+        $review->updated_at=today();
+        $review->save();
+        return redirect('review');
     }
 
     /**

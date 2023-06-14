@@ -50,7 +50,7 @@
                 <p class="price">
                   RM5.95
                 </p>
-                <a type="submit" class="buttonreview" href="/review">Review</a>
+                <a type="submit" class="buttonreview" href="/add-review">Review</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
