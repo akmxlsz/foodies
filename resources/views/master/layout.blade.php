@@ -49,7 +49,7 @@
         <h1>Foodies & Co<span>.</span></h1>
       </a>
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar active show" class="navbar">
         <ul>
           <li><a href="/home">Home</a></li>
           <li><a href="/menu">Menu</a></li>
