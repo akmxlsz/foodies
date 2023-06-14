@@ -26,8 +26,8 @@ Route::get('/menu', function () {
     return view('menu');
 });
 
-Route::get('/addorder', function () {
-    return view('addorder');
+Route::get('/add-order', function () {
+    return view('add-order');
 });
 
 Route::get('order', [OrderController::class, 'index']);

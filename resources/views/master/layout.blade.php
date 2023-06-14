@@ -53,7 +53,7 @@
         <ul>
           <li><a href="/home">Home</a></li>
           <li><a href="/menu">Menu</a></li>
-          <li><a href="/addorder">Add Order</a></li>
+          <li><a href="/add-order">Add Order</a></li>
           <li><a href="/order">Order</a></li>
 
 
