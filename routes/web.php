@@ -17,7 +17,7 @@ use App\Http\Controllers\Review2Controller;
 */
 
 Route::get('/', function () {
-    return view('testingwelcome');
+    return view('welcome');
 });
 
 Route::get('/home', function () {
