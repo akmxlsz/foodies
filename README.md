@@ -1,66 +1,31 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# INFO 3305 PROPOSAL REPORT
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![FRONTPAGE](https://github.com/HORRYZONE/ProjectWebAPP/assets/69580122/3667f867-531d-4456-887b-21443f063b68)
 
-## About Laravel
+## 1.0 TITLE OF THE PROJECT
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- Foodies & Co
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 2.0 INTRODUCTION
+Foodies & Co is an innovative web application designed to streamline and simplify food and beverage operations for businesses. Built using the Laravel Model, View and Controller (MVC) framework, Foodies & Co offers a user-friendly platform for buyers and sellers to perform buying and selling operations.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 3.0 OBJECTIVES
+There are three main objectives of our project:
+- To provide a user-friendly ordering process. The interface of the application will be simple and minimalist. This is to make sure that users can easily select food and drinks and add them to the cart. This is to ensure that the ordering process is straightforward, with clear instructions and the most important thing is that the application just only requires minimal steps for users to complete an order.
+- To develop an efficient order management system. This involves creating a back-end functionality that allows restaurant staff to receive and process orders effectively. We will implement features such as real-time order notifications and order tracking. The goal is to streamline the order flow, minimise errors, and ensure timely delivery or pickup.
+- To ensure that the application that we will develop could be accessible across many types of devices including desktops, tablets, ipads and smartphones. The ideal is to make sure that the application gives a responsive design that adapts to different screen sizes so that the user can access on any types of devices.
 
-## Learning Laravel
+## 4.0 FEATURES AND FUNCTIONALITY 
+There are several functions that we will implement on our project:
+* User Registration and Authentication: allow users to create accounts, log in, and manage their profiles.
+* Shopping Cart: enable users to view their selected items, modify quantities and remove items if they have changed their mind.
+* Payment Integration: integrate a secure payment gateway to process online payments so that users can complete transactions using various payment methods such as credit/debit cards, digital wallets, or online banking.
+* Order Tracking: implement a feature that allows users to track the status of their orders.
+* User Reviews and Ratings: allow users to leave feedback and ratings for the food they have ordered, and the important thing is to help future customers make decisions.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 5.0 ER DIAGRAM
+![erDia](https://github.com/HORRYZONE/ProjectWebAPP/assets/69580122/23cf3f6e-8b0c-4d5b-9958-76c5de17db2e)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 6.0 SEQUENCE DIAGRAM
+ ![sqdia](https://github.com/HORRYZONE/ProjectWebAPP/assets/69580122/a3a23ac4-05e0-4adf-8272-5a255dbd43ed)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
