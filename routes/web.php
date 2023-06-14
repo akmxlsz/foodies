@@ -52,7 +52,7 @@ Route::get('/add-review', function () {
     return view('add-review');
 });
 
-
 Route::get('review', [ReviewController::class, 'index']);
+
 Route::resource('addreview', ReviewController::class);
 
