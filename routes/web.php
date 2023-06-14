@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\Review2Controller;
+use App\Http\Controllers\Review3Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -51,6 +52,12 @@ Route::get('/add-review2', function () {
 
 Route::get('review2', [Review2Controller::class, 'index']);
 Route::resource('addreview2', Review2Controller::class);
+
+//review3 part
+
+
+Route::get('review3', [Review3Controller::class, 'index']);
+
 
 //danish part
 Route::middleware([
