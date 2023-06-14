@@ -67,3 +67,20 @@ Route::resource('addreview', Review2Controller::class);
 
 
 
+Route::get('/add-review', function () {
+    return view('add-review');
+});
+
+
+Route::get('review', [ReviewController::class, 'index']);
+Route::resource('addreview', ReviewController::class);
+
+//review2 part
+Route::get('/add-review2', function () {
+    return view('add-review2');
+});
+
+Route::get('review2', [Review2Controller::class, 'index']);
+Route::resource('addreview', Review2Controller::class);
+
+
