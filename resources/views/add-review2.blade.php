@@ -20,7 +20,7 @@
 
 
 
-            <form action="addreview" method="post" role="form" enctype="multipart/form-data">
+            <form action="addreview2" method="post" role="form" enctype="multipart/form-data">
                 @csrf
                 <div class="row">
 

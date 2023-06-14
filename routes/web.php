@@ -50,7 +50,7 @@ Route::get('/add-review2', function () {
 });
 
 Route::get('review2', [Review2Controller::class, 'index']);
-Route::resource('addreview', Review2Controller::class);
+Route::resource('addreview2', Review2Controller::class);
 
 //danish part
 Route::middleware([
