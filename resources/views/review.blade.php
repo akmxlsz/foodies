@@ -21,15 +21,16 @@
         <table class="table table-striped table-dark">
             <thead>
               <tr>
-                <th scope="col">Order Date & Time</th>
-                <th scope="col">Order</th>
+                <th scope="col">Name</th>
+                <th scope="col">Review</th>
+
               </tr>
             </thead>
             <tbody>
-                @foreach ($order as $item)
+                @foreach ($review as $item)
                 <tr>
-                  <th scope="row">{{ $item->created_at }}</th>
-                  <td>{{ $item->order }}</td>
+                  <th scope="row">{{ $item->name }}</th>
+                  <td>{{ $item->review }}</td>
 
                 </tr>
                 @endforeach
@@ -56,8 +57,8 @@
                 <td>mkazmi@iium.edu.my</td>
                 <td>019-2839481</td>
                 <td>Hassan</td>
-              </tr>
-              --}}
+              </tr>--}}
+
             </tbody>
           </table>
 

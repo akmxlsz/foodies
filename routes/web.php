@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\ReviewController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,13 +27,14 @@ Route::get('/menu', function () {
     return view('menu');
 });
 
+//order part
 Route::get('/add-order', function () {
     return view('add-order');
 });
 
 Route::get('order', [OrderController::class, 'index']);
-
 Route::resource('addorder', OrderController::class);
+
 
 Route::middleware([
     'auth:sanctum',
@@ -45,4 +47,12 @@ Route::middleware([
 });
 
 
+//review part
+Route::get('/add-review', function () {
+    return view('add-review');
+});
+
+
+Route::get('review', [ReviewController::class, 'index']);
+Route::resource('addreview', ReviewController::class);
 
