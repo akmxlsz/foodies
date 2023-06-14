@@ -51,10 +51,22 @@
 
       <nav id="navbar active show" class="navbar">
         <ul>
-          <li><a href="/home">Home</a></li>
-          <li><a href="/menu">Menu</a></li>
-          <li><a href="/add-order">Add Order</a></li>
-          <li><a href="/order">Order</a></li>
+
+          <li>
+            <a href="/home">Home</a>
+          </li>
+
+          <li>
+            <a href="/menu">Menu</a>
+          </li>
+
+          <li>
+            <a href="/add-order">Add Order</a>
+          </li>
+
+          <li>
+            <a href="/order">Order</a>
+          </li>
 
 
 
