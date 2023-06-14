@@ -21,22 +21,20 @@
         <table class="table table-striped table-dark">
             <thead>
               <tr>
-                <th scope="col">Matric ID</th>
-                <th scope="col">First Name</th>
-                <th scope="col">Last Name</th>
-                <th scope="col">Email</th>
-                <th scope="col">Phone No</th>
+                <th scope="col">Name</th>
+                <th scope="col">Review</th>
+
               </tr>
             </thead>
             <tbody>
-                {{--@foreach ($order as $item)
+                @foreach ($review as $item)
                 <tr>
-                  <th scope="row">{{ $item->created_at }}</th>
-                  <td>{{ $item->order }}</td>
+                  <th scope="row">{{ $item->name }}</th>
+                  <td>{{ $item->review }}</td>
 
                 </tr>
-                @endforeach--}}
-              --<tr>
+                @endforeach
+              {{--<tr>
                 <th scope="row">Mohd Khairul Azmi</th>
                 <td>mkazmi@iium.edu.my</td>
                 <td>019-2839481</td>
@@ -59,7 +57,7 @@
                 <td>mkazmi@iium.edu.my</td>
                 <td>019-2839481</td>
                 <td>Hassan</td>
-              </tr>
+              </tr>--}}
 
             </tbody>
           </table>

@@ -33,10 +33,13 @@ Route::get('/add-order', function () {
 });
 
 Route::get('order', [OrderController::class, 'index']);
-
 Route::resource('addorder', OrderController::class);
 
 //review part
-Route::get('review', [ReviewController::class, 'index']);
+Route::get('/add-review', function () {
+    return view('add-review');
+});
 
+Route::get('review', [ReviewController::class, 'index']);
+Route::resource('addreview', ReviewController::class);
 
