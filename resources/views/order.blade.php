@@ -13,7 +13,7 @@
 
         <div class="section-header">
 
-            <p><span>Order</span></p>
+            <p>Your Order<span> History</span></p>
 
         </div>
 
@@ -21,19 +21,16 @@
         <table class="table table-striped table-dark">
             <thead>
               <tr>
-                <th scope="col">Name</th>
-                <th scope="col">Email</th>
-                <th scope="col">Phone No</th>
+                <th scope="col">Order Date & Time</th>
                 <th scope="col">Order</th>
               </tr>
             </thead>
             <tbody>
                 @foreach ($order as $item)
                 <tr>
-                  <th scope="row">{{ $item->name }}</th>
-                  <td>{{ $item->email }}</td>
-                  <td>{{ $item->phone_no }}</td>
+                  <th scope="row">{{ $item->created_at }}</th>
                   <td>{{ $item->order }}</td>
+
                 </tr>
                 @endforeach
               {{--<tr>
