@@ -13,7 +13,7 @@
 
         <div class="section-header">
 
-            <p>Your Order<span> History</span></p>
+            <p>Magnam Tistes<span> Review</span></p>
 
         </div>
 

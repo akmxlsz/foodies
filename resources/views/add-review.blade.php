@@ -13,7 +13,7 @@
 
         <div class="section-header">
 
-          <p>Add <span>Your Order</span> Now</p>
+          <p>Write Your Review On <span>Magnam Tiste</p>
         </div>
 
         <div class="row g-0">
