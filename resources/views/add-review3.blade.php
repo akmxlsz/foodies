@@ -13,7 +13,7 @@
 
         <div class="section-header">
 
-          <p>Add Your Review On <span>Est Eligendi</p>
+          <p>Write Your Review On <span>Cabbage Pasta</p>
         </div>
 
         <div class="row g-0">

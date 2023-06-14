@@ -13,7 +13,7 @@
 
         <div class="section-header">
 
-          <p>Add Your Review On <span>Aud Luia</p>
+          <p>Write Your Review On <span>Mendi Shawarma</p>
         </div>
 
         <div class="row g-0">

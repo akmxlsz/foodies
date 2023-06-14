@@ -13,7 +13,7 @@
 
         <div class="section-header">
 
-            <p>Magnam Tistes<span> Review</span></p>
+            <p>Fried Taufu<span> Review</span></p>
 
         </div>
 
