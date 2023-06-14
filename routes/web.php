@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\Review2Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,11 +36,20 @@ Route::get('/add-order', function () {
 Route::get('order', [OrderController::class, 'index']);
 Route::resource('addorder', OrderController::class);
 
-//review part
+//review1 part
 Route::get('/add-review', function () {
     return view('add-review');
 });
 
 Route::get('review', [ReviewController::class, 'index']);
 Route::resource('addreview', ReviewController::class);
+
+//review2 part
+Route::get('/add-review2', function () {
+    return view('add-review2');
+});
+
+Route::get('review2', [Review2Controller::class, 'index']);
+Route::resource('addreview', Review2Controller::class);
+
 
