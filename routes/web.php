@@ -35,18 +35,6 @@ Route::get('/add-order', function () {
 Route::get('order', [OrderController::class, 'index']);
 Route::resource('addorder', OrderController::class);
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
-
-
-
 //review part
 Route::get('/add-review', function () {
     return view('add-review');
@@ -56,3 +44,13 @@ Route::get('review', [ReviewController::class, 'index']);
 
 Route::resource('addreview', ReviewController::class);
 
+//danish part
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
