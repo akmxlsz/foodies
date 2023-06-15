@@ -32,42 +32,44 @@ There are several functions that we will implement on our project:
 
 
 ### Figure 1 : Welcome Page
-Once the user clicks on our website link, they will go directly to this page. At the top and right of the page, there is a “Login” and “Register” button. For the first time user, they need to click on the “Register” button and register their account first. For the regular user that has already created an account, they just need to click on “Login” button.
+Once the user clicks on our website link, they will go directly to this page. At the top and right of the page, there is a “Login” and “Register” button. For the new user, they need to click on the “Register” button and register their account first. For the registered user that has already created an account, they just need to click on “Login” button.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/01abb573-6e76-46d5-94b7-b3ebfcac327c)
 
 
-### Figure 2
-This is the Register Page. Once the user clicks on the “Register” button from the Welcome Page, they will go directly to this page. There are four columns which are Name, Email, Password and Forgot Password that the user needs to fill in to register. After that, the user will need to click on the “Register” button that is located at the bottom and right of the form.
+
+### Figure 2 : Register Page
+Once the new user clicks on the “Register” button from the Welcome Page, they will go directly to this page. There are four columns which are Name, Email, Password and Forgot Password that the user needs to fill in to register. After that, the user will need to click on the “Register” button that is located at the bottom and right of the form. There is also "Already Registered?" link there. The user can click to that link to go to the Login Page.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/b30b4eb1-8d38-4bfc-ba2a-6f99def5fcc0)
 
 
-### Figure 3
-This is our “Login Page” where the user can log into the Foodies & Co. website if they have the account already. By filling in the email and password the user is able to log into their account and if they forgot their password, they can press the “Forgot your password?” button to go to the “Forgot Password” page.
+
+### Figure 3 : Login Page
+Once the registered user clicks on the “Login” button from the Welcome Page, they will go directly to this page. There are two columns which are Email and Password that the user needs to fill in to login. After that, the user will need to click on the “Login” button that is located at the bottom and right of the form. There is also "Forgot your password?" link there. The user can click to that link to go to the Forgot Password Page if they forgot their password.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/6e32336b-3e93-4cf7-9afb-dd678cdc5119)
 
 
 
-### Figure 4
-This is the “Forgot Password” page where they can enter their email to reset their password and by pressing the “EMAIL PASSWORD RESET LINK” button, there will be a prompt that will be sent to their email to reset their password.
+### Figure 4 : Forgot Password Page
+Once the user clicks on the “Forgot your password?” link from the Login Page, they will go directly to this page. The user will need to enter their email in Email column to reset their password. By clicking on the “EMAIL PASSWORD RESET LINK” button, there will be a prompt that will be sent to their email to reset their password.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/99f339c2-c52b-4a2a-8da5-50b92eacac31)
 
 
 
-### Figure 5
-This is our “Dashboard” page where we can learn more about our project which is Foodies & Co. and what Foodies & Co. offers as a company/website.
+### Figure 5 : Dashboard Page
+The users can learn more about our project which is Foodies & Co.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/21212004-752f-4c23-8748-8decc6c9bc94)
 
 
 
-### Figure 6
-This is the “Profile” page where we can change the password, delete the account and change our name and email.
+### Figure 6 : Profile Page
+The users can manage their Profile Information, Update Password and Delete Account on this page.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/f800d779-af96-4809-b4c3-9b093ab704b2)
 
 
 
-### Figure 7
-This is the Main Page for our website where we can see everything on the dashboard and all the options on the header on top.
-![image](https://github.com/akmxlsz/foodies/assets/106504907/527be3aa-10be-448a-89b6-0cd460471fad)
+### Figure 7 : Home Page
+Once the user has successfully login, they will go directly to this page. In this page, the users can see all the options which are "Home", "Menu", "Add Order", "Order" and "Dashboard" button that are arranged neatly at the header of the page.
+![image](https://github.com/akmxlsz/foodies/assets/106504907/da357ef7-cb58-4177-95e3-584812fb75b4)
 
 
 
@@ -116,7 +118,6 @@ This is the review application page where after we click the “Write Review” 
 ### Figure 15
 This is the “Make Your Payment” page where the user will be using to pay for their food to confirm the order. By entering the price of their food that they need to pay, their card number, the expiry date and the CVV of the card
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/382bc149-ba1e-47ab-808a-1b7c8eb2ff5c)
-
 
 
 
