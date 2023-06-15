@@ -13,14 +13,14 @@
 
         <div class="section-header">
 
-          <p>Write Your Review On <span>Fried Taufu</p>
+          <p>Write Your Review On <span>Cabbage Pasta</p>
         </div>
 
         <div class="row g-0">
 
 
 
-            <form action="addreview" method="post" role="form" enctype="multipart/form-data">
+            <form action="addreview3" method="post" role="form" enctype="multipart/form-data">
                 @csrf
                 <div class="row">
 

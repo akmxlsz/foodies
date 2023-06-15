@@ -46,7 +46,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
+                <h4>Fried Taufu</h4>
                 <p class="price">
                   RM5.95
                 </p>
@@ -56,7 +56,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
+                <h4>Mendi Shawarma</h4>
                 <p class="price">
                   RM14.95
                 </p>
@@ -66,16 +66,18 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
+                <h4>Cabbage Pasta</h4>
 
                 <p class="price">
                   RM8.95
                 </p>
+                <a type="submit" class="buttonreview" href="/review3">Read Review</a>
+                <a type="submit" class="buttonreview" href="/add-review3">Write Review</a>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>Chicken Chop</h4>
 
                 <p class="price">
                   RM12.95
@@ -84,7 +86,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>Fingers Chocolate</h4>
 
                 <p class="price">
                   RM12.95
@@ -93,7 +95,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
+                <h4>Brazilian Vegetables</h4>
 
                 <p class="price">
                   RM9.95
@@ -113,7 +115,7 @@
             <div class="row gy-5">
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/IMG_4194.PNG" class="glightbox"><img src="assets/img/menu/IMG_4194.PNG" class="menu-img img-fluid" alt=""></a>
                 <h4>Magnam Tiste</h4>
 
                 <p class="price">
@@ -122,8 +124,8 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
+                <a href="assets/img/menu/IMG_4193.PNG" class="glightbox"><img src="assets/img/menu/IMG_4193.PNG" class="menu-img img-fluid" alt=""></a>
+                <h4>Iced Americano</h4>
 
                 <p class="price">
                   RM14.95
@@ -131,8 +133,8 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
+                <a href="assets/img/menu/IMG_4198.PNG" class="glightbox"><img src="assets/img/menu/IMG_4198.PNG" class="menu-img img-fluid" alt=""></a>
+                <h4>Americano Coffee</h4>
 
                 <p class="price">
                   RM8.95
@@ -140,8 +142,8 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <a href="assets/img/menu/IMG_4196.PNG" class="glightbox"><img src="assets/img/menu/IMG_4196.PNG" class="menu-img img-fluid" alt=""></a>
+                <h4>Italian Cappucino</h4>
 
                 <p class="price">
                   RM12.95
@@ -149,8 +151,8 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <a href="assets/img/menu/IMG_4195.PNG" class="glightbox"><img src="assets/img/menu/IMG_4195.PNG" class="menu-img img-fluid" alt=""></a>
+                <h4>Ice Blended Strawberry</h4>
 
                 <p class="price">
                   RM12.95
@@ -158,8 +160,8 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
+                <a href="assets/img/menu/IMG_4197.PNG" class="glightbox"><img src="assets/img/menu/IMG_4197.PNG" class="menu-img img-fluid" alt=""></a>
+                <h4>Iced Blended Mango</h4>
 
                 <p class="price">
                   RM9.95

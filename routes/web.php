@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\Review2Controller;
+use App\Http\Controllers\Review3Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,7 +38,6 @@ Route::get('order', [OrderController::class, 'index']);
 Route::resource('addorder', OrderController::class);
 
 
-
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -66,11 +66,9 @@ Route::get('review2', [Review2Controller::class, 'index']);
 Route::resource('addreview', Review2Controller::class);
 
 
-
 Route::get('/add-review', function () {
     return view('add-review');
 });
-
 
 Route::get('review', [ReviewController::class, 'index']);
 Route::resource('addreview', ReviewController::class);
@@ -81,6 +79,24 @@ Route::get('/add-review2', function () {
 });
 
 Route::get('review2', [Review2Controller::class, 'index']);
-Route::resource('addreview', Review2Controller::class);
+Route::resource('addreview2', Review2Controller::class);
+
+//review3 part
+Route::get('/add-review3', function () {
+    return view('add-review3');
+});
+
+Route::get('review3', [Review3Controller::class, 'index']);
+Route::resource('addreview3', Review3Controller::class);
 
 
+//danish part
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});

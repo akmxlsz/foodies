@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -35,7 +34,7 @@
                 </div>
             @endif
 
-                  <!-- ======= Hero Section ======= -->
+<!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center section-bg">
     <div class="container">
       <div class="row justify-content-between gy-5">
@@ -51,7 +50,9 @@
         </div>
       </div>
     </div>
-  </section><!-- End Hero Section -->
+  </section>
+<!-- End Hero Section -->
+
         </div>
     </body>
 </html>
