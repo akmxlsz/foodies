@@ -35,6 +35,12 @@ There are several functions that we will implement on our project:
 ### Figure 1
 This is the Welcome Page. Once the user clicks on our website link, they will go directly to this page. At the top and right of the page, there is a “Login” and “Register” button. For the first time user, they need to click on the “Register” button and register their account first. For the regular user that has already created an account, they just need to click on “Login” button.
 
+![image](https://github.com/akmxlsz/foodies/assets/106504907/c1c70329-253d-4a50-98a6-eeeb8721f02f)
+### Figure 
+This is the Register Page. Once the user clicks on the “Register” button from the Welcome Page, they will go directly to this page. There are four columns which are Name, Email, Password and Forgot Password that the user needs to fill in to register. After that, the user will need to click on the “Register” button that is located at the bottom and right of the form.
+
+
+
 
 
 
