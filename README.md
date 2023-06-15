@@ -56,14 +56,16 @@ Once the user clicks on the “Forgot your password?” link from the Login Page
 
 
 ### Figure 5 : Dashboard Page
-The users can learn more about our project which is Foodies & Co.
+The users can learn more about our project which is Foodies & Co on this page.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/21212004-752f-4c23-8748-8decc6c9bc94)
 
 
 
 ### Figure 6 : Profile Page
-The users can manage their Profile Information, Update Password and Delete Account on this page.
+The users can manage their Profile Information, Update Password, Two Factor Authentication, Browser Sessions and Delete Account on this page. If let say the users want to change their Name, they just need to update their new name in the Name column and click on the "SAVE" button.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/f800d779-af96-4809-b4c3-9b093ab704b2)
+![image](https://github.com/akmxlsz/foodies/assets/106504907/7d153078-6c3e-49be-9d91-49986f80d4c4)
+
 
 
 
@@ -73,13 +75,14 @@ Once the user has successfully login, they will go directly to this page. In thi
 
 
 
-### Figure 8
+### Figure 8 : Menu Page (Foods)
 This is our “Menu” page and under the Foods option where we can see the multiple choices of food that we wanted to eat and can be ordered.
-![image](https://github.com/akmxlsz/foodies/assets/106504907/8671850d-117e-4139-b31e-2fb8568799b7)
+![image](https://github.com/akmxlsz/foodies/assets/106504907/9effa082-e4c7-4078-ac9d-ae474b4ffc16)
+
 
  
 
-### Figure 9
+### Figure 9 : Menu Page (Drinks)
 By selecting the drink menu, we can take a look at the Drinks option and choose over the variety of options that are shown in the drink tab.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/0ce67b9d-e8d3-428e-a007-dfe8e27868e3)
 
