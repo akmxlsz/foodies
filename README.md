@@ -93,39 +93,54 @@ Once the users click on the "Add Order" button on the header, this page will com
 
 
 
-### Figure 11 : Order
-Once the user click on the "Add Order" button on the header and the "Submit" button from the Add Order page, this page will come out. They can view their order history on this page.
+### Figure 11 : Order 
+Once the user click on the "Order" button on the header and the "Submit" button from the Add Order page, this page will come out. They can view their order history on this page.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/3e9f579c-b93c-4006-b37f-67d4355cba89)
 
 
 
 ### Figure 12 : Review
 Below price of each foods, there are two buttons for the users to click, which are the “Read Review” if they want to read review about the food and "Write Review" if they want to review the food.
-![image](https://github.com/akmxlsz/foodies/assets/106504907/c7c87c06-d97c-4f34-ae34-a8d6fb1f3f01)
+![image](https://github.com/akmxlsz/foodies/assets/106504907/a01021dd-236d-41da-9355-4f9a0bcd893d)
 
 
 
-### Figure 13 : Read Review
+### Figure 13 : Read Review Page
 Once the user click on the "Read Review" button, this page will come out. In this page, the user can see the list of review about that food.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/4673cf1b-5fdf-45d6-b9d1-f4777005cd29)
 
 
 
-### Figure 14 : Write Review
+### Figure 14 : Write Review Page
 Once the user click on the "Write Review" button, this page will come out. In this page, the user can give the review about that food.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/97d643fc-b53d-4f33-ba4d-2a9f6ba2374b)
 
 
 
-### Figure 15
-This is the “Make Your Payment” page where the user will be using to pay for their food to confirm the order. By entering the price of their food that they need to pay, their card number, the expiry date and the CVV of the card
+### Figure 15 : Making Payment Page
+Once the user click on the "Making Payment" button on the header, this page will come out. The user need to enter the price of their food that they need to pay, their card number, the expiry date and the CVV of the card to confirm their order by clicking on the "Submit" button.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/382bc149-ba1e-47ab-808a-1b7c8eb2ff5c)
 
 
 
-### Figure 16
-This is the “Payment Status/ History” page of the user of what they have bought and how much they pay for their food. They can see the history of the transactions and the receipts. 
+### Figure 16 : Payment Status Page
+Once the user click on the "Payment Status" button on the header and the "Submit" button from the Making Payment page, this page will come out. They can view their payment history on this page.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/0a56a582-8541-4d92-a19c-f27430501e55)
+
+
+
+## 8.0 WHAT IS THE CHALLENGE/DIFFICULTIES TO DEVELOP THE APPLICATION
+
+Particularly for developers who are new to the framework, in this case us students, laravel has a steep learning curve. It has a vast ecosystem of features, libraries, and concepts to comprehend. To fully comprehend the architectural patterns, best practices, and conventions of Laravel, developers must devote time and effort.
+
+- Configuring the development environment, including installing PHP and a web server (such as Apache), is necessary for setting up a Laravel application. For us novices, correctly configuring these components can be quite challenging.
+
+- Understanding software architecture principles is quite challenging for us because it is necessary for creating a well-structured and easy-to-maintain Laravel application. When dealing with complex business logic, designing a clear separation of concerns and managing dependencies is quite challenging.
+
+- Testing the website can help us avoid any regression and ensure code quality and this is encouraged by laravel itself. However, when dealing with complex interactions between various application components, writing effective tests and setting up testing environments can be difficult for us, who are just starting to learn about laravel.
+
+- Other than that, we also encounter some problems trying to make the order status page, where the user can see their order status whether it is still being prepared or has been delivered.
+
 
 
 
