@@ -46,6 +46,11 @@ This is the Register Page. Once the user clicks on the “Register” button fro
 ### Figure 3
 This is our “Login Page” where the user can log into the Foodies & Co. website if they have the account already. By filling in the email and password the user is able to log into their account and if they forgot their password, they can press the “Forgot your password?” button to go to the “Forgot Password” page.
 
+![image](https://github.com/akmxlsz/foodies/assets/106504907/99f339c2-c52b-4a2a-8da5-50b92eacac31)
+
+### Figure 4
+This is the “Forgot Password” page where they can enter their email to reset their password and by pressing the “EMAIL PASSWORD RESET LINK” button, there will be a prompt that will be sent to their email to reset their password.
+
 
 
 
