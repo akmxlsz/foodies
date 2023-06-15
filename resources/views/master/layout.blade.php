@@ -67,6 +67,10 @@
             <a href="/dashboard">Profile</a>
           </li>
 
+          <li>
+            <a href="/dashboard">Dashboard</a>
+          </li>
+
 
         </ul>
 
