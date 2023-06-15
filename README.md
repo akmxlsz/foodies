@@ -1,6 +1,5 @@
 # INFO 3305 FINAL REPORT
-
-![FRONTPAGE](https://github.com/HORRYZONE/ProjectWebAPP/assets/69580122/3667f867-531d-4456-887b-21443f063b68)
+![image](https://github.com/akmxlsz/foodies/assets/106504907/8f7afca1-c665-4fd2-b807-da8c7268f728)
 
 ## 1.0 TITLE OF THE PROJECT
 
