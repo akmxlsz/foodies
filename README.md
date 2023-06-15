@@ -129,7 +129,7 @@ Once the user click on the "Payment Status" button on the header and the "Submit
 
 
 
-## 8.0 WHAT IS THE CHALLENGE/DIFFICULTIES TO DEVELOP THE APPLICATION
+## 8.0 THE CHALLENGE/DIFFICULTIES TO DEVELOP THE APPLICATION
 
 Particularly for developers who are new to the framework, in this case us students, laravel has a steep learning curve. It has a vast ecosystem of features, libraries, and concepts to comprehend. To fully comprehend the architectural patterns, best practices, and conventions of Laravel, developers must devote time and effort.
 
