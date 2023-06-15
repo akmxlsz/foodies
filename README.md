@@ -76,44 +76,43 @@ Once the user has successfully login, they will go directly to this page. In thi
 
 
 ### Figure 8 : Menu Page (Foods)
-This is our “Menu” page and under the Foods option where we can see the multiple choices of food that we wanted to eat and can be ordered.
+Once the users click on the "Menu" button on the header, this page will come out. They can see the multiple choices of foods that they want to eat and can be ordered. In this page, there are two tabs which are "Foods" as a default tabs and "Drinks". 
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/9effa082-e4c7-4078-ac9d-ae474b4ffc16)
 
 
  
-
 ### Figure 9 : Menu Page (Drinks)
-By selecting the drink menu, we can take a look at the Drinks option and choose over the variety of options that are shown in the drink tab.
-![image](https://github.com/akmxlsz/foodies/assets/106504907/0ce67b9d-e8d3-428e-a007-dfe8e27868e3)
+Once the users change the tabs to "Drinks" tab, this page will come out. They can see the multiple choices of drinks that they want to eat and can be ordered.
+![image](https://github.com/akmxlsz/foodies/assets/106504907/0f22fe5d-5e2f-4a1a-9e09-91c8422de09c)
 
 
 
-### Figure 10
-This is the “Add Order” page where customers fill their order by filling their full name/surname, their email, their phone number, and what they want to eat. All of these details will be shown in the order history tab and the database for the website.
-![image](https://github.com/akmxlsz/foodies/assets/106504907/665ca22c-5705-472c-96aa-77d6e4002161)
+### Figure 10 : Add Order
+Once the users click on the "Add Order" button on the header, this page will come out. They can make their order by filling in their name, email, phone number and what they want to eat. After that, they need to click on the "Submit" button.
+![image](https://github.com/akmxlsz/foodies/assets/106504907/dbca45a6-6013-4cc8-86c6-8b4857759477)
 
 
 
-### Figure 11
-This is history order page
-![image](https://github.com/akmxlsz/foodies/assets/106504907/5b53a0b8-3d9f-40e5-a43c-ad59e3356e6c)
+### Figure 11 : Order
+Once the user click on the "Add Order" button on the header and the "Submit" button from the Add Order page, this page will come out. They can view their order history on this page.
+![image](https://github.com/akmxlsz/foodies/assets/106504907/3e9f579c-b93c-4006-b37f-67d4355cba89)
 
 
 
-### Figure 12
-There are also two buttons for the users to click, which are the “Read Review” where you can read what others' reviews are and also the “Write Review” where we can write the review of the food ourselves.
+### Figure 12 : Review
+Below price of each foods, there are two buttons for the users to click, which are the “Read Review” if they want to read review about the food and "Write Review" if they want to review the food.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/c7c87c06-d97c-4f34-ae34-a8d6fb1f3f01)
 
 
 
-### Figure 13
-By clicking the “Read Review” button, the user will be redirected here where they can read the history/ past review of what the other users think about the dish.
+### Figure 13 : Read Review
+Once the user click on the "Read Review" button, this page will come out. In this page, the user can see the list of review about that food.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/4673cf1b-5fdf-45d6-b9d1-f4777005cd29)
 
 
 
-### Figure 14
-This is the review application page where after we click the “Write Review” for this example on the dish fried taufu, we can put in our name and what we think of the dish and by pressing submit it will go to the database.
+### Figure 14 : Write Review
+Once the user click on the "Write Review" button, this page will come out. In this page, the user can give the review about that food.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/97d643fc-b53d-4f33-ba4d-2a9f6ba2374b)
 
 
