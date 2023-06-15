@@ -26,7 +26,7 @@ There are several functions that we will implement on our project:
 ![erDia](https://github.com/HORRYZONE/ProjectWebAPP/assets/69580122/23cf3f6e-8b0c-4d5b-9958-76c5de17db2e)
 
 ## 6.0 SEQUENCE DIAGRAM
- ![sqdia](https://github.com/HORRYZONE/ProjectWebAPP/assets/69580122/a3a23ac4-05e0-4adf-8272-5a255dbd43ed)
+![sqdia](https://github.com/HORRYZONE/ProjectWebAPP/assets/69580122/a3a23ac4-05e0-4adf-8272-5a255dbd43ed)
  
 ## 7.0 PROJECT SYSTEM CAPTURED SCREEN AND EXPLANATION
 
