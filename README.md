@@ -31,8 +31,8 @@ There are several functions that we will implement on our project:
 ## 7.0 PROJECT SYSTEM CAPTURED SCREEN AND EXPLANATION
 
 
-### Figure 1
-This is the Welcome Page. Once the user clicks on our website link, they will go directly to this page. At the top and right of the page, there is a “Login” and “Register” button. For the first time user, they need to click on the “Register” button and register their account first. For the regular user that has already created an account, they just need to click on “Login” button.
+### Figure 1 : Welcome Page
+Once the user clicks on our website link, they will go directly to this page. At the top and right of the page, there is a “Login” and “Register” button. For the first time user, they need to click on the “Register” button and register their account first. For the regular user that has already created an account, they just need to click on “Login” button.
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/01abb573-6e76-46d5-94b7-b3ebfcac327c)
 
 
