@@ -76,7 +76,7 @@ Once the user has successfully login, they will go directly to this page. In thi
 
 
 ### Figure 8 : Menu Page (Foods)
-Once the users click on the "Menu" button on the header, this page will come out. They can see the multiple choices of foods that they want to eat and can be ordered. In this page, there are two tabs which are "Foods" as a default tabs and "Drinks". 
+Once the users click on the "Menu" button on the header, this page will come out. They can see the multiple choices of foods that they want to eat and can be ordered. In this page, there are two tabs which are "Foods" tabs as a default and "Drinks" tabs. 
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/9effa082-e4c7-4078-ac9d-ae474b4ffc16)
 
 
