@@ -1,4 +1,4 @@
-# INFO 3305 PROPOSAL REPORT
+# INFO 3305 FINAL REPORT
 
 ![FRONTPAGE](https://github.com/HORRYZONE/ProjectWebAPP/assets/69580122/3667f867-531d-4456-887b-21443f063b68)
 
@@ -30,14 +30,24 @@ There are several functions that we will implement on our project:
  ![sqdia](https://github.com/HORRYZONE/ProjectWebAPP/assets/69580122/a3a23ac4-05e0-4adf-8272-5a255dbd43ed)
  
 ## 7.0 PROJECT SYSTEM CAPTURED SCREEN AND EXPLANATION
+
 ![image](https://github.com/akmxlsz/foodies/assets/106504907/01abb573-6e76-46d5-94b7-b3ebfcac327c)
 
 ### Figure 1
 This is the Welcome Page. Once the user clicks on our website link, they will go directly to this page. At the top and right of the page, there is a “Login” and “Register” button. For the first time user, they need to click on the “Register” button and register their account first. For the regular user that has already created an account, they just need to click on “Login” button.
 
-![image](https://github.com/akmxlsz/foodies/assets/106504907/c1c70329-253d-4a50-98a6-eeeb8721f02f)
-### Figure 
+![image](https://github.com/akmxlsz/foodies/assets/106504907/b30b4eb1-8d38-4bfc-ba2a-6f99def5fcc0)
+
+### Figure 2
 This is the Register Page. Once the user clicks on the “Register” button from the Welcome Page, they will go directly to this page. There are four columns which are Name, Email, Password and Forgot Password that the user needs to fill in to register. After that, the user will need to click on the “Register” button that is located at the bottom and right of the form.
+
+![image](https://github.com/akmxlsz/foodies/assets/106504907/6e32336b-3e93-4cf7-9afb-dd678cdc5119)
+
+### Figure 3
+This is our “Login Page” where the user can log into the Foodies & Co. website if they have the account already. By filling in the email and password the user is able to log into their account and if they forgot their password, they can press the “Forgot your password?” button to go to the “Forgot Password” page.
+
+
+
 
 
 
