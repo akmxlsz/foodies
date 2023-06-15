@@ -28,4 +28,7 @@ There are several functions that we will implement on our project:
 
 ## 6.0 SEQUENCE DIAGRAM
  ![sqdia](https://github.com/HORRYZONE/ProjectWebAPP/assets/69580122/a3a23ac4-05e0-4adf-8272-5a255dbd43ed)
+ 
+## PROJECT SYSTEM CAPTURED SCREEN AND EXPLANATION
+
 
