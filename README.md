@@ -116,13 +116,15 @@ This is the review application page where after we click the “Write Review” 
 
 ### Figure 15
 This is the “Make Your Payment” page where the user will be using to pay for their food to confirm the order. By entering the price of their food that they need to pay, their card number, the expiry date and the CVV of the card
-[gambar make payment]
+![image](https://github.com/akmxlsz/foodies/assets/106504907/382bc149-ba1e-47ab-808a-1b7c8eb2ff5c)
+
 
 
 
 ### Figure 16
 This is the “Payment Status/ History” page of the user of what they have bought and how much they pay for their food. They can see the history of the transactions and the receipts. 
-[gambar payment status]
+![image](https://github.com/akmxlsz/foodies/assets/106504907/0a56a582-8541-4d92-a19c-f27430501e55)
+
 
 
 
