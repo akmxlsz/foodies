@@ -73,7 +73,7 @@
           </li>
 
           <li>
-            <a href="/armstrong.index">Armstrong</a>
+            <a href="/armstrong">Armstrong</a>
           </li>
 
           <li>
