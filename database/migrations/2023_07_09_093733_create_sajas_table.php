@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('phone_no', 15);
             $table->string('order', 50);
-
+            $table->timestamps();
         });
     }
 
