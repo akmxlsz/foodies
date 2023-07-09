@@ -48,7 +48,7 @@ Route::middleware([
     })->name('dashboard');
 });
 
-
+//review part
 Route::get('/add-review', function () {
     return view('add-review');
 });
