@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Saja;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class SajaController extends Controller
 {
@@ -11,7 +13,12 @@ class SajaController extends Controller
      */
     public function index()
     {
-        return view('saja');
+        $saja = DB::table('sajas')
+
+        ->get();
+
+        return view('saja', ['saja'=>$saja]);
+
     }
 
     /**
@@ -27,7 +34,15 @@ class SajaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $saja= new Saja();
+        $saja->name=$request->name;
+        $saja->email=$request->email;
+        $saja->phone_no=$request->phone_no;
+        $saja->saja=$request->saja;
+        $saja->created_at=today();
+        $saja->updated_at=today();
+        $saja->save();
+        return redirect('saja');
     }
 
     /**

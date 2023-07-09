@@ -31,8 +31,12 @@ Route::get('/menu', function () {
 });
 
 //saja part
+Route::get('/add-saja', function () {
+    return view('add-saja');
+});
 
 Route::get('saja', [SajaController::class, 'index']);
+Route::resource('addsaja', SajaController::class);
 
 //order part
 Route::get('/add-order', function () {

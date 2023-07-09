@@ -26,14 +26,14 @@
               </tr>
             </thead>
             <tbody>
-                {{--@foreach ($order as $item)
+                @foreach ($saja as $item)
                 <tr>
                   <th scope="row">{{ $item->created_at }}</th>
-                  <td>{{ $item->order }}</td>
+                  <td>{{ $item->saja }}</td>
 
                 </tr>
-                @endforeach--}}
-              <tr>
+                @endforeach
+              {{--<tr>
                 <th scope="row">Mohd Khairul Azmi</th>
                 <td>mkazmi@iium.edu.my</td>
                 <td>019-2839481</td>
@@ -56,7 +56,7 @@
                 <td>mkazmi@iium.edu.my</td>
                 <td>019-2839481</td>
                 <td>Hassan</td>
-              </tr>
+              </tr>--}}
 
             </tbody>
           </table>
