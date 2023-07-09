@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SajaController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\Review2Controller;
@@ -28,6 +29,10 @@ Route::get('/home', function () {
 Route::get('/menu', function () {
     return view('menu');
 });
+
+//saja part
+
+Route::get('saja', [SajaController::class, 'index']);
 
 //order part
 Route::get('/add-order', function () {
