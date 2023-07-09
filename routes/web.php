@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ArmstrongController;
 use App\Http\Controllers\SajaController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ReviewController;
@@ -109,3 +110,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+//armstrong part
+Route::get('/armstrong', [ArmstrongController::class, 'index']);
+Route::post('/armstrong', [ArmstrongController::class, 'check']);
