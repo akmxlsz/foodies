@@ -73,6 +73,10 @@
           </li>
 
           <li>
+            <a href="/armstrong.index">Armstrong</a>
+          </li>
+
+          <li>
             <a href="/dashboard">Dashboard</a>
           </li>
 
