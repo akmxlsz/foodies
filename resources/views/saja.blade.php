@@ -21,15 +21,19 @@
         <table class="table table-striped table-dark">
             <thead>
               <tr>
-                <th scope="col">Order Date & Time</th>
-                <th scope="col">Order</th>
+                <th>Order Date & Time</th>
+                <th>Order</th>
+                <th>Name</th>
+                <th>Email</th>
               </tr>
             </thead>
             <tbody>
                 @foreach ($saja as $item)
                 <tr>
-                  <th scope="row">{{ $item->created_at }}</th>
+                  <td>{{ $item->created_at }}</td>
                   <td>{{ $item->saja }}</td>
+                  <td>{{ $item->name }}</td>
+                  <td>{{ $item->email }}</td>
 
                 </tr>
                 @endforeach
